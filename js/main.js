@@ -33,8 +33,4 @@ botao.onclick = function(){
 	gerarPizza();
 }
 
-// criar estilo inline com JS - escrever como string
-pizzaImg.style.borderRadius = '50%';
-
-// criar cor de fundo na <li>
-pizza.style.backgroundColor = 'purple';
+pizzaImg.className = 'borda-redonda';
