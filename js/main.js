@@ -1,7 +1,9 @@
 // função para criar pizza no DOM - código de cima foi colado 
 function gerarPizza() {
 	var containerPizzas = document.querySelector('#container-pizzas');
-	var pizza = document.createElement('li'); 
+	var pizza = document.createElement('li');
+	// adicionando classe do bootstrap 
+	pizza.className = 'list-inline-item'
 	var pizzaImg = document.createElement('img'); 
 	pizzaImg.setAttribute('src','img/pizza.png')
 	pizza.appendChild(pizzaImg)
